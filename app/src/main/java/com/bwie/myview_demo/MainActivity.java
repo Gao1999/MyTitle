@@ -11,22 +11,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        MyTitle myTitle = findViewById(R.id.MyTitle);
-        myTitle.setOnClickCallBack(new MyTitle.setOnClickCallBack() {
-            @Override
-            public void LeftText() {
 
-            }
-
-            @Override
-            public void CenterText() {
-
-            }
-
-            @Override
-            public void RightText() {
-
-            }
-        });
     }
 }

@@ -6,18 +6,4 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <com.bwie.myview_demo.MyTitle
-        android:id="@+id/MyTitle"
-        android:layout_width="match_parent"
-        app:left_tetx_TV="123"
-        app:left_color_TV="#f00"
-        app:left_size_TV="20dp"
-        app:center_text_TV="456"
-        app:center_color_TV="#f00"
-        app:center_size_TV="20dp"
-        app:right_tetx_TV="789"
-        app:right_color_TV="#f00"
-        app:right_size_TV="20dp"
-        android:layout_height="50dp"/>
-
 </android.support.constraint.ConstraintLayout>
