@@ -6,4 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <com.bwie.openlibrary.MyTitle
+        android:layout_width="match_parent"
+        app:left_tetx_TV="123"
+        android:layout_height="50dp"></com.bwie.openlibrary.MyTitle>
 </android.support.constraint.ConstraintLayout>

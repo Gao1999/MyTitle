@@ -32,9 +32,9 @@ public class MyTitle extends LinearLayout implements View.OnClickListener {
         int rightTextColor_TV = typedArray.getColor(R.styleable.MyTitle_right_color_TV, Color.BLACK);
         int centerTextColor_TV = typedArray.getColor(R.styleable.MyTitle_center_color_TV, Color.BLACK);
 
-        float leftTextSize_TV = typedArray.getDimension(R.styleable.MyTitle_left_size_TV, 16);
-        float rightTextSize_TV = typedArray.getDimension(R.styleable.MyTitle_right_size_TV, 16);
-        float centerTextSize_TV = typedArray.getDimension(R.styleable.MyTitle_center_size_TV, 16);
+        float leftTextSize_TV = typedArray.getDimensionPixelSize(R.styleable.MyTitle_left_size_TV, 16);
+        float rightTextSize_TV = typedArray.getDimensionPixelSize(R.styleable.MyTitle_right_size_TV, 16);
+        float centerTextSize_TV = typedArray.getDimensionPixelSize(R.styleable.MyTitle_center_size_TV, 16);
 
 
         View view = inflate(context, R.layout.mytitle_view, this);
